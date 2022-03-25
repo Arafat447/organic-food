@@ -19,6 +19,7 @@ const FeaturedProduct = () => {
       description:
         "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus.",
       price: 30,
+      id:1
     },
     {
       name: "Crab Pool Security",
@@ -26,6 +27,7 @@ const FeaturedProduct = () => {
       description:
         "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus.",
       price: 30,
+      id:2
     },
     {
       name: "Crab Pool Security",
@@ -33,6 +35,7 @@ const FeaturedProduct = () => {
       description:
         "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus.",
       price: 30,
+      id:3
     },
     {
       name: "Crab Pool Security",
@@ -40,6 +43,7 @@ const FeaturedProduct = () => {
       description:
         "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus.",
       price: 30,
+      id:4
     },
     {
       name: "Crab Pool Security",
@@ -47,6 +51,7 @@ const FeaturedProduct = () => {
       description:
         "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus.",
       price: 30,
+      id:5
     },
     {
       name: "Crab Pool Security",
@@ -54,6 +59,7 @@ const FeaturedProduct = () => {
       description:
         "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus.",
       price: 30,
+      id:6
     },
   ];
   return (

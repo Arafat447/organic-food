@@ -7,7 +7,7 @@ import {
   faRetweet,
 } from "@fortawesome/free-solid-svg-icons";
 const ProductCard = (props) => {
-    const {name,img,price} = props.product;
+  const { name, img, price,id } = props.product;
   return (
     <>
       <div className="product__card__img">
@@ -29,7 +29,7 @@ const ProductCard = (props) => {
       <div className="product__card__description">
         <div className="product__card__description__text">
           <h6>
-            <Link style={{ color: "#000" }} to="#">
+            <Link style={{ color: "#000" }} to={`/product-detail/${id}`}>
               {name}
             </Link>
           </h6>

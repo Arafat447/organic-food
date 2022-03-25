@@ -5,12 +5,10 @@ import FeaturedProduct from "./FeaturedProduct/FeaturedProduct";
 import "./Home.css";
 const Home = () => {
   return (
-    <div className="container">
-      <Layout>
-        <BannerLayout />
-        <FeaturedProduct/>
-      </Layout>
-    </div>
+    <Layout>
+      <BannerLayout />
+      <FeaturedProduct />
+    </Layout>
   );
 };
 
