@@ -58,7 +58,7 @@
 .prouduct__card__img__button__group ul{
     margin-bottom:0;
     position: absolute;
-    transition: 0.2s all ease;
+    transition: 0.3s all ease;
 }
 .prouduct__card__img__button__group ul li{
     list-style: none;

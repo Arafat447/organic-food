@@ -9,6 +9,7 @@ import {
   faCartPlus,
   faRetweet,
 } from "@fortawesome/free-solid-svg-icons";
+import ProductCard from "../../../Common/ProductCard/ProductCard";
 const FeaturedProduct = () => {
   const [filter, setFilter] = useState("All");
   const products = [
@@ -96,7 +97,7 @@ const FeaturedProduct = () => {
         </ul>
       </div>
       <div className="featured__products row">
-        {products.map((item, i) => (
+        {/* {products.map((item, i) => (
           <div
             key={i}
             className="featured__product__card col-lg-3 col-md-6 mt-3"
@@ -127,6 +128,14 @@ const FeaturedProduct = () => {
                 <h5>${item.price}.00</h5>
               </div>
             </div>
+          </div>
+        ))} */}
+        {products.map((item, i) => (
+          <div
+            key={i}
+            className="featured__product__card col-lg-3 col-md-6 mt-3"
+          >
+            <ProductCard product={item} />
           </div>
         ))}
       </div>
