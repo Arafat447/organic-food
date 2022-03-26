@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../Layout/Layout";
+import './ProductDetail.css'
 import BannerSearch from "../Pages/Home/Banner/BannerSearch";
 import BannerSidebar from "../Pages/Home/Banner/BannerSidebar";
 
@@ -16,6 +17,7 @@ const ProductDetail = () => {
               <BannerSearch/>
           </div>
       </div>
+      
     </Layout>
   );
 };

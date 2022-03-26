@@ -8,6 +8,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Pages/Home/Home';
 import ProductDetail from './Components/ProductDetail/ProductDetail';
+
 function App() {
   return (
     <BrowserRouter>
